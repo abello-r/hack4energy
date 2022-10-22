@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'FiraCode';
+    src: url('../srcs/FiraCode-Regular.ttf');
+}
+
+body {
+	background-color: black;
+	font-family: FiraCode;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: rgb(34,40,49);
+	background: linear-gradient(0deg, rgba(34,40,49,1) 0%, #49ed85 100%);
+	background-color: black !important;
+}
+
+#father {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	width: 80vw;
+	height: 80vh;
+	border-radius: 10px;
+	background: rgba(255, 255, 255, 0.113);
+	box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.06);
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.091);
+}
+
+.footerName {
+	color: white;
+	font-size: 15px;
+	font-family: FiraCode;
+	margin-left: 65vw;
+}
+
+.devices {
+	align-items: center;
+	color: #37414f;
+	font-size: 40px;
+	font-family: FiraCode;
+	-webkit-text-stroke: 1px #37414f;
+	letter-spacing: -3px;
+}
+
+.rightColumn {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 5%;
+
+}
+
+.right-1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: left;
+	width: 90%;
+	height: 5%;
+}
+
+.pick_one {
+	width: 90%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	border-radius: 8px;
+	background: transparent;
+	border-color: #49ed85;
+	font-size: 14px;
+	height: 30px;
+	padding: 5px;
+	font-family: FiraCode;
+}
+
+#data-rup {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	width: 5%;
+}
+
+#company {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+}
+
+.right-2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: left;
+	width: 90%;
+	height: 5%;
+}
+
+.right-3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: left;
+	width: 90%;
+	height: 5%;
+}
+
+.right-4 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: left;
+	width: 90%;
+	height: 5%;
+}
+
+.right-5 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: left;
+	width: 90%;
+	height: 5%;
+}
+
+.right-6 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: left;
+	width: 90%;
+	height: 5%;
+}
+
+#people {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	font-family: FiraCode;
+}
+
+#users-img {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+}
+
+#leftColumn {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.button-33 {
+	background-color: #49ed85;
+	width: 30%;
+	margin: 14px;
+	border-radius: 8px;
+	box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+	color: black;
+	cursor: pointer;
+	display: inline-block;
+	font-family: FiraCode;
+	letter-spacing: -1.5px;
+	padding: 7px 20px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 250ms;
+	border: 0;
+	font-size: 16px;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+  }
+  
+.button-33:hover {
+	box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+	transform: scale(1.05);
+}
+
+#world {
+	width: 80%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.output {
+	width: 100%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: -10px;
+	color: #37414f;
+	-webkit-text-stroke: 1px #37414f;
+	font-size: 20px;
+}
+
+#recommendation {
+	width: 50%;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	overflow: hidden;
+	border-radius: 5%;
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+#recommendationImg {
+	width: 50%;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	overflow: hidden;
+	border-radius: 5%;
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+	display: none;
+}

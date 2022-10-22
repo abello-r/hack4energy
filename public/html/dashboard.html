@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>H4E | Dashboard</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="../srcs/favicon.png" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../css/dashboard.css">
+	<!--===============================================================================================-->
+	<script src="../js/dashboard.js"></script>
+</head>
+
+<body>
+	
+	<div id="father">
+		<div class="rightColumn">
+
+
+			<h1 class="devices">Personas</h1>
+			<div class="right-1">
+				<img id="data-rup" src="srcs/usuarios.png">
+				<select id="amount-users" class="pick_one">
+					<option selected value="0">Cantidad de personas por vivienda</option>
+						<option value="1">1</option>
+						<option value="1,1">2</option>
+						<option value="1,2">3</option>
+						<option value="1,2">4</option>
+						<option value="1,3">5</option>
+					</optgroup>
+				<select>
+			</div>
+
+			<h1 class="devices">Compañía Eléctrica</h1>
+			<div class="right-1">
+				<img id="company" src="srcs/Endesa.png">
+				<select id="actual_company" class="pick_one">
+					<option selected value="0">Compañía actual</option>
+						<optgroup label = "Endesa">
+							<option value="Endesa">Tarifa plana</option>
+						</optgroup>
+						<optgroup label = "Naturgy">
+							<option value="Naturgy">Tarifa plana</option>
+						</optgroup>
+						<optgroup label = "Iberdrola">
+							<option value="Iberdrola">Tarifa plana</option>
+						</optgroup>
+					</optgroup>
+				<select>
+			</div>
+
+			<h1 class="devices">Dispositivos</h1>
+			<div class="right-1">
+				<img id="data-rup" src="srcs/lavadora.png">
+				<select id="washing-machine" class="pick_one">
+					<option selected value="0">Lavadora [ Certificación energetica ]</option>
+						<option value="0">No hay consumo</option>
+						<option value="a+++">A+++</option>
+						<option value="a++">A++</option>
+						<option value="a+">A+</option>
+						<option value="a">A</option>
+						<option value="b">B</option>
+					</optgroup>
+				<select>
+			</div>
+			<div class="right-2">
+				<img id="data-rup" src="srcs/frigorifico.png">
+				<select id="fridge" class="pick_one">
+					<option selected value="0">Frigorifico [ Certificación energetica ]</option>
+						<option value="0">No hay consumo</option>
+						<option value="a+++">A+++</option>
+						<option value="a++">A++</option>
+						<option value="a+">A+</option>
+						<option value="a">A</option>
+						<option value="b">B</option>
+						<option value="c">C</option>
+					</optgroup>
+				<select>
+			</div>
+			<div class="right-3">
+				<img id="data-rup" src="srcs/televisor.png">
+				<select id="tv" class="pick_one">
+					<option selected value="0">Televisor [ Certificación energetica ]</option>
+						<option value="0">No hay consumo</option>
+						<option value="a++">A++</option>
+						<option value="a+">A+</option>
+						<option value="a">A</option>
+					</optgroup>
+				<select>
+			</div>
+			<div class="right-4">
+				<img id="data-rup" src="srcs/aire-acondicionado.png">
+				<select id="air" class="pick_one">
+					<option selected value="0">Aire Acondicionado [ Tipo ]</option>
+					<option value="no">No hay consumo</option>
+					<option value="portatil">Central</option>
+					<option value="normal">Split</option>
+				</optgroup>
+				<select>
+				</div>
+			<div class="right-5">
+				<img id="data-rup" src="srcs/calefaccion.png">
+				<select id="heater" class="pick_one">
+					<option selected value="0">Calefaccion [ Tipo ]</option>
+					<option value="no">No hay consumo</option>
+					<option value="radiador">Radiador</option>
+					<option value="caldera">Caldera</option>
+					<option value="bomba_calor">Bomba de calor</option>
+					<option value="calefactor_portatil">Calefactor portatil</option>
+				</optgroup>
+				<select>
+				</div>
+				<div class="right-6">
+					<img id="data-rup" src="srcs/termo.png">
+					<select id="thermo" class="pick_one">
+						<option selected value="0">Termo [ Capacidad ]</option>
+							<option value="gas">No hay consumo</option>
+							<option value="100l">100l</option>
+							<option value="80l">80l</option>
+							<option value="50l">50l</option>
+							<option value="30l">30l</option>
+						</optgroup>
+					<select>
+				</div>
+
+				<button id="evaluate" class="button-33" role="button">Calcular</button>
+				
+			</div>
+
+			<div id="leftColumn">
+				<img id="world" src="srcs/world.gif">
+				<h3 id="kwh" class="output"></h3>
+				<h3 id="value" class="output"></h3>
+				<h3 id="meter" class="output"></h3>
+				<h3 id="recommendation" class="output"></h3>
+				<img id="recommendationImg" src="srcs/rec-end.png">
+			</div>
+
+	</div> <!-- father -->
+
+	<footer>
+		<h3 class="footerName">[ Powered by Equipo 2 ]</h3>
+	</footer>
+
+</body>
